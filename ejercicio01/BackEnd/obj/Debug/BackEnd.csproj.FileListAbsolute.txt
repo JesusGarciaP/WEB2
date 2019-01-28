@@ -1,0 +1,5 @@
+c:\users\endjg\documents\visual studio 2015\Projects\ejercicio01\BackEnd\bin\Debug\BackEnd.dll
+c:\users\endjg\documents\visual studio 2015\Projects\ejercicio01\BackEnd\bin\Debug\BackEnd.pdb
+c:\users\endjg\documents\visual studio 2015\Projects\ejercicio01\BackEnd\obj\Debug\BackEnd.csprojResolveAssemblyReference.cache
+c:\users\endjg\documents\visual studio 2015\Projects\ejercicio01\BackEnd\obj\Debug\BackEnd.dll
+c:\users\endjg\documents\visual studio 2015\Projects\ejercicio01\BackEnd\obj\Debug\BackEnd.pdb
