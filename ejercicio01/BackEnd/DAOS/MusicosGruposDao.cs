@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BackEnd.Modelo;
+using BackEnd.util;
 
 namespace BackEnd.DAOS
 {
@@ -11,15 +12,14 @@ namespace BackEnd.DAOS
     {
         public List<MusicosGrupos> getAll()
         {
-            List<MusicosGrupos> lista;
-            lista = new List<MusicosGrupos>();
-            lista.Add(new MusicosGrupos()
-            {
-                Idgrupo = 1,
-                Idmusico = 1,
-                Instrumento = "GUITARRA"
-            });
-            return lista;
+            List<MusicosGrupos> Lista = BDDUMMY.ListaMusicosGrupos;
+            return Lista;
+        }
+
+        public void add(MusicosGrupos m)
+        {
+            List<MusicosGrupos> Lista = BDDUMMY.ListaMusicosGrupos;
+            Lista.Add(m);
         }
     }
 }

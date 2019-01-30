@@ -52,6 +52,7 @@
     <Compile Include="Modelo\Musico.cs" />
     <Compile Include="Modelo\MusicosGrupos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="util\BDDUMMY.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

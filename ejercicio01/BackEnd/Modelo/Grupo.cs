@@ -10,17 +10,17 @@ namespace BackEnd.Modelo
     {
         int idgrupo;
         string nombre;
-        string formacion;
-        string desintegracion;
+        DateTime formacion;
+        DateTime desintegracion;
 
         public Grupo() { }
 
-        public Grupo(int idgrupo, string nombre, string formacion, string desintegracion)
+        public Grupo(int idgrupo, string nombre, DateTime formacion, DateTime desintegracion)
         {
-            this.idgrupo = idgrupo;
-            this.nombre = nombre;
-            this.formacion = formacion;
-            this.desintegracion = desintegracion;
+            this.Idgrupo = idgrupo;
+            this.Nombre = nombre;
+            this.Formacion = formacion;
+            this.Desintegracion = desintegracion;
         }
 
         public int Idgrupo
@@ -49,7 +49,7 @@ namespace BackEnd.Modelo
             }
         }
 
-        public string Formacion
+        public DateTime Formacion
         {
             get
             {
@@ -62,7 +62,7 @@ namespace BackEnd.Modelo
             }
         }
 
-        public string Desintegracion
+        public DateTime Desintegracion
         {
             get
             {

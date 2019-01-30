@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BackEnd.Modelo;
+using BackEnd.util;
 
 namespace BackEnd.DAOS
 {
@@ -11,14 +12,14 @@ namespace BackEnd.DAOS
     {
         public List<Genero> getAll()
         {
-            List<Genero> lista;
-            lista = new List<Genero>();
-            lista.Add(new Genero()
-            {
-                Idgenero = 1,
-                Descripcion = "descripcion"
-            });
-            return lista;
+            List<Genero> Lista = BDDUMMY.ListaGenero;
+            return Lista;
+        }
+
+        public void add(Genero m)
+        {
+            List<Genero> Lista = BDDUMMY.ListaGenero;
+            Lista.Add(m);
         }
     }
 }

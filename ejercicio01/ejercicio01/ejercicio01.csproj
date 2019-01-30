@@ -180,11 +180,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="GeneroForm.aspx" />
+    <Content Include="GenerosGrupoForm.aspx" />
+    <Content Include="GrupoForm.aspx" />
     <Content Include="listaGenero.aspx" />
     <Content Include="listaGenerosGrupos.aspx" />
     <Content Include="listaGrupo.aspx" />
     <Content Include="listaMusicos.aspx" />
     <Content Include="listaMusicosGrupos.aspx" />
+    <Content Include="MusicoForm.aspx" />
+    <Content Include="MusicosGruposForm.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -363,8 +368,29 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GeneroForm.aspx.cs">
+      <DependentUpon>GeneroForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GeneroForm.aspx.designer.cs">
+      <DependentUpon>GeneroForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenerosGrupoForm.aspx.cs">
+      <DependentUpon>GenerosGrupoForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenerosGrupoForm.aspx.designer.cs">
+      <DependentUpon>GenerosGrupoForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoForm.aspx.cs">
+      <DependentUpon>GrupoForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GrupoForm.aspx.designer.cs">
+      <DependentUpon>GrupoForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="listaGenero.aspx.cs">
       <DependentUpon>listaGenero.aspx</DependentUpon>
@@ -402,6 +428,20 @@
       <DependentUpon>listaMusicosGrupos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="MusicoForm.aspx.cs">
+      <DependentUpon>MusicoForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MusicoForm.aspx.designer.cs">
+      <DependentUpon>MusicoForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MusicosGruposForm.aspx.cs">
+      <DependentUpon>MusicosGruposForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MusicosGruposForm.aspx.designer.cs">
+      <DependentUpon>MusicosGruposForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
